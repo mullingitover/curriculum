@@ -5,7 +5,7 @@ Authentication in unix
 ======================
 
 .. todo::
-   Discuss how authention works.
+   Discuss how authentication works.
    Touch on ``/etc/(passwd|group|shadow)``, hashing.
    What are groups? Lead in to the users/groups permissions model and how
    permissions are based on the user/group/other bits.
@@ -25,7 +25,7 @@ The simplest way of displaying filesystem permissions is by typing:
 
 The left column is a 10-character string that indicates the permissions for a file. It consists of the symbols d, r, w, x, -.
 
-- **Directory(d)** - This is the first character in the permissions string. 
+- **Directory (d)** - This is the first character in the permissions string. 
   This indicates a *directory*. 
   Otherwise, the first character is a - to indicate that it is not a directory.
 - **Read (r)** - The *read* permission allows the user to read the contents of the file or list the files in the directory.
@@ -70,5 +70,5 @@ http://www.snowplow.org/tom/worm/worm.html
 
 /bin/false is not security
 --------------------------
-http://www.semicomplete.com/articles/ssh-security/
+https://web.archive.org/web/20150907095805/http://www.semicomplete.com/articles/ssh-security
 

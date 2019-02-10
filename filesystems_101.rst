@@ -221,7 +221,7 @@ Formatting partitions with new file systems
 New filesystems are created with the ``mkfs`` family of commands. There are a
 variety of file systems to choose from, ``man fs`` has a list of filesystems
 with short descriptions of each. Choosing a filesystem involves characterizing
-the workload of the filesystema and weighing engineering tradeoffs. On Linux
+the workload of the filesystem and weighing engineering tradeoffs. On Linux
 systems, ext4 is a good general purpose choice. Following from the example
 above, we will create filesystems on each of the four partitions we created.
 
@@ -492,7 +492,7 @@ What they contain, how they work
 The POSIX standard dictates files must have the following attributes:
 
 * File size in bytes.
-* A device id.
+* A device ID.
 * User ID of file's owner.
 * Group ID of file.
 * The file's mode (permissions).
